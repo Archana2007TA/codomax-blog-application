@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogApp - Create Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">BlogSpace</a>
+        <ul class="nav-links" id="nav-links"></ul>
+    </nav>
+
+    <main class="container">
+        <div class="form-container" style="max-width: 650px;">
+            <h2>Create New Blog Post</h2>
+            <form id="create-blog-form">
+                <div class="form-group">
+                    <label for="blog-title">Blog Title</label>
+                    <input type="text" id="blog-title" required placeholder="Enter blog title">
+                </div>
+                <div class="form-group">
+                    <label for="blog-category">Category</label>
+                    <input type="text" id="blog-category" required placeholder="e.g., Tech, Lifestyle, WebDev">
+                </div>
+                <div class="form-group">
+                    <label for="blog-content">Content</label>
+                    <textarea id="blog-content" rows="6" required placeholder="Write your blog post content here..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Publish Blog</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BlogSpace App. Built for Codomax Internship.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
